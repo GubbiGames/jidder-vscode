@@ -1,21 +1,12 @@
-# jidder README
-
-This is the README for your extension "jidder". After writing up a brief description, we recommend including the following sections.
+# Jidder Extension for VS Code
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Syntax Highlighting
+Your Jidder dialogue files (`.jdr`) will be syntax highlighted for better readability.
 
-For example if there is an image subfolder under your extension project workspace:
+< add gif showing highlighting >
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Release Notes
-
-### 1.0.0
-
-Initial release of Jidder
-
+for example if there is an image subfolder under your extension project workspace:
+[feature X](images/feature-x.png)
 

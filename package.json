@@ -12,7 +12,7 @@
   "contributes": {
     "languages": [{
       "id": "jidder",
-      "aliases": ["Jidder", "jidder"],
+      "aliases": ["Jidder"],
       "extensions": [".jdr"],
       "configuration": "./language-configuration.json"
     }],

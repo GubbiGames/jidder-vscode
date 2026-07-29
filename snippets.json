@@ -1,0 +1,9 @@
+{
+    "Node": {
+        "prefix": "jump",
+        "body": [
+            "-> ${1:Label}"
+        ],
+        "description": "Jump to label"
+    }
+}

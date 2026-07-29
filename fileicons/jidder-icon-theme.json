@@ -1,0 +1,12 @@
+{
+    "iconDefinitions": {
+        "jidder-file": {
+            "iconPath": "../media/icons/jidder-file.svg"
+        }
+    },
+    "fileExtensions": {
+        "jdr": "jidder-file"
+    },
+    "file": "_file",
+    "folder": "_folder"
+}

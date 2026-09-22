@@ -1,9 +1,54 @@
 {
-    "Node": {
+    "Jump": {
         "prefix": "jump",
         "body": [
             "-> ${1:Label}"
         ],
-        "description": "Jump to label"
-    }
+        "description": "Jump to node with label"
+    },
+    "Long Jump": {
+        "prefix": "jump",
+        "body": [
+            "--> ${1:Label}"
+        ],
+        "description": "Jump to children of node with label"
+    },
+    "Condition": {
+        "prefix": "condition",
+        "body": [
+            "{${1}}?"
+        ],
+        "description": "Only include line if condition is true."
+    },
+    "Id": {
+        "prefix": "id",
+        "body": [
+            "[id:${1}]"
+        ],
+        "description": "Add an id attribute"
+    }, 
+    "Label": {
+        "prefix": "label",
+        "body": [
+            "[label:${1}]"
+        ],
+        "description": "Add a label attribute"
+    }, 
+    "Asset": {
+        "prefix": "asset",
+        "body": [
+            "[asset:${1}]"
+        ],
+        "description": "Add an asset attribute"
+    }, 
+    "Header": {
+        "prefix": "header",
+        "body": [
+            "---",
+            "Locale: en",
+            "---"
+        ],
+        "description": "Add a header"
+    }  
+
 }

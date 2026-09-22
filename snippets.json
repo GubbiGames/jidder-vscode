@@ -20,35 +20,42 @@
         ],
         "description": "Only include line if condition is true."
     },
-    "Id": {
+
+    "Attribute": {
+        "prefix": "attribute",
+        "body": [
+            "[${1}:${2}]"
+        ],
+        "description": "Add an attribute"
+    },
+    "TagAttribute": {
+        "prefix": "tag",
+        "body": [
+            "[${1}]"
+        ],
+        "description": "Add an attribute which does not have a key - only a value"
+    },    
+    "IdAttribute": {
         "prefix": "id",
         "body": [
             "[id:${1}]"
         ],
         "description": "Add an id attribute"
     }, 
-    "Label": {
+    "LabelAttribute": {
         "prefix": "label",
         "body": [
             "[label:${1}]"
         ],
         "description": "Add a label attribute"
     }, 
-    "Asset": {
+    "AssetAttribute": {
         "prefix": "asset",
         "body": [
             "[asset:${1}]"
         ],
         "description": "Add an asset attribute"
-    }, 
-    "Header": {
-        "prefix": "header",
-        "body": [
-            "---",
-            "Locale: en",
-            "---"
-        ],
-        "description": "Add a header"
-    }  
+    }
+
 
 }

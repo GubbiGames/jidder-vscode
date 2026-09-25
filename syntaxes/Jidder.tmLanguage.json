@@ -50,15 +50,6 @@
       ]
     },
     {
-      "comment": "Illegally indented line (matches whole line)",
-      "match": "^(((  )* )(?=[^ ])(?!//).*)",
-      "captures": {
-        "1": {
-          "name": "invalid.illegal.indent.jidder"
-        }
-      }
-    },
-    {
       "comment": "Node type + Party Name",
       "match": "^\\s*(>|>>|\\*\\d*)?\\s*((?:\\\\.|[^{}\\[\\]()\"?:*>0-9\\s-])(?:\\\\.|[^{}\\[\\]()\"?:*>-])*)",
       "captures": {
